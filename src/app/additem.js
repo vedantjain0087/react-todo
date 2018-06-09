@@ -1,8 +1,9 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
 require('./css/addItem.css');
 
-var AddItem = React.createClass({
+var AddItem = createReactClass({
     render: function(){
         return(
             <form id="add-todo" onSubmit={this.handleSubmit}>

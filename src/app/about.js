@@ -1,7 +1,7 @@
 var React = require('react');
-var Link = require('react-router').Link;
-
-var About = React.createClass({
+var createReactClass = require('create-react-class');
+import { Link } from 'react-router-dom';
+var About = createReactClass({
     render: function(){
         return(
             <div>
